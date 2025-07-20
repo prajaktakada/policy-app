@@ -1,0 +1,23 @@
+{
+  "name": "policy-app",
+  "version": "1.0.0",
+  "description": "policy app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "prajakta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.16.4",
+    "multer": "^2.0.2",
+    "os": "^0.1.2",
+    "pidusage": "^4.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
